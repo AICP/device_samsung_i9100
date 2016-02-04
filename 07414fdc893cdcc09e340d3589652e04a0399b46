@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c7e67216",
+        "filename": "aicp.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2016-02-04T22:25:51Z",
+      "side": 1,
+      "message": "configs/common.mk\n\nAlso inherit telephony.mk as it is done for other devices.\n\nAnd push/update this file to vendor/aicp/products.",
+      "range": {
+        "startLine": 25,
+        "startChar": 36,
+        "endLine": 25,
+        "endChar": 60
+      },
+      "revId": "07414fdc893cdcc09e340d3589652e04a0399b46",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
