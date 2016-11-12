@@ -11,6 +11,8 @@ ro.vold.primary_physical=1
 # Atlas-Service
 config.disable_atlas=true
 
+ro.ril.mqanelements=5
+
 # Hardware Info
 ro.device.chipset=Exynos 4210 Dual
 ro.device.cpu=Dual-core 1.2 GHz Cortex-A9
