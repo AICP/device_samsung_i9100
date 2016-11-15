@@ -25,5 +25,8 @@ ro.device.screen_res=480x800
 dalvik.vm.dex2oat-swap=false
 dalvik.vm.dex2oat-Xmx=256m
 
+# Skip screen-off Animation
+ro.egl.nofadeoff=1
+
 # GSM Signal
 ro.telephony.ril.config=datacallapn,signalstrength
