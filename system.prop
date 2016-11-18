@@ -8,10 +8,16 @@ rild.libargs=-d /dev/ttyS0 --
 # By default, primary storage is physical
 ro.vold.primary_physical=1
 
-# Atlas-Service
+# misc
 config.disable_atlas=true
-
 ro.ril.mqanelements=5
+
+# Dalvik
+dalvik.vm.dex2oat-swap=false
+dalvik.vm.dex2oat-Xmx=256m
+
+# GSM Signal
+ro.telephony.ril.config=datacallapn,signalstrength
 
 # Hardware Info
 ro.device.chipset=Exynos 4210 Dual
@@ -20,10 +26,3 @@ ro.device.gpu=Mali-400MP4
 ro.device.rear_cam=8 MP
 ro.device.front_cam=2.0 MP
 ro.device.screen_res=480x800
-
-# ART
-dalvik.vm.dex2oat-swap=false
-dalvik.vm.dex2oat-Xmx=256m
-
-# GSM Signal
-ro.telephony.ril.config=datacallapn,signalstrength
