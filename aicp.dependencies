@@ -22,11 +22,11 @@
   {
     "repository":  "AICP/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "branch":      "n7.0"
+    "branch":      "n7.1"
   },
   {
     "repository":  "CyanogenMod/android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
-    "branch":      "cm-13.0"
+    "branch":      "cm-14.1"
   }
 ]
