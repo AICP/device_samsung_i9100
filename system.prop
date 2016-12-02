@@ -11,6 +11,7 @@ ro.vold.primary_physical=1
 # misc
 config.disable_atlas=true
 ro.ril.mqanelements=5
+ro.egl.destroy_after_detach=true
 
 # Dalvik
 dalvik.vm.dex2oat-swap=false
