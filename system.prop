@@ -23,3 +23,4 @@ ro.device.front_cam=2.0 MP
 ro.device.screen_res=480x800
 
 dalvik.vm.dex2oat-Xmx=256m
+persist.media.treble_omx=false
